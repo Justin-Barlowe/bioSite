@@ -29,6 +29,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #FBF9FA;
+    margin-right: 100px;
 }
 
 a {
@@ -36,11 +37,11 @@ a {
     color: #FBF9FA;
 }
 
-a:hover {
-    background-color: #A80038;
+/* a:hover {
+    text-transform: inherit;
     border-radius: 30px;
-    padding: 5px;
-}
+    background
+} */
 
 a:focus {
     outline: none;
@@ -49,14 +50,24 @@ a:focus {
 .active {
     background-color: #A80038;
     border-radius: 30px;
-    padding: 5px;
+    padding: 10px;
 }
 
 img {
     max-width: 450px;
     border-radius: 30px;
-    margin-left: 20px;
     margin-top: 40px;
     box-shadow: 2px #A80038;
     
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maincontent img:hover {
+    scale: 1.05;
+    transition: 1s;
 }
