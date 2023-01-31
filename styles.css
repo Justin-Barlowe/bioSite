@@ -30,6 +30,7 @@ body {
     text-transform: uppercase;
     color: #FBF9FA;
     margin-right: 100px;
+    font-weight: 600;
 }
 
 a {
@@ -37,11 +38,6 @@ a {
     color: #FBF9FA;
 }
 
-/* a:hover {
-    text-transform: inherit;
-    border-radius: 30px;
-    background
-} */
 
 a:focus {
     outline: none;
@@ -56,8 +52,8 @@ a:focus {
 img {
     max-width: 450px;
     border-radius: 30px;
-    margin-top: 40px;
     box-shadow: 2px #A80038;
+    margin: 40px 5px 5px 5px;
     
 }
 
