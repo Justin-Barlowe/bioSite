@@ -88,3 +88,11 @@ p {
     display: flex;
     justify-content: center;
 }
+
+#hobbiesdescription {
+    padding: 20px;
+}
+
+#Biography {
+    padding: 20px;
+}
